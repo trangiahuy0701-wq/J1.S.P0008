@@ -5,10 +5,7 @@ import java.util.Map;
 import java.util.Scanner;
 import java.util.StringTokenizer;
 
-/**
- *
- * @author THAYCACAC
- */
+
 public class Counter {
     
     private Map<Character, Integer> charCounter = 
@@ -17,9 +14,7 @@ public class Counter {
     private Map<String, Integer> wordCounter =
             new HashMap<String, Integer>();
 
-    /**
-     * @param args the command line arguments
-     */
+    
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter your content: ");
